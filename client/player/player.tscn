@@ -8,7 +8,11 @@ radius = 60.0
 height = 60.0
 
 [node name="player" type="KinematicBody2D"]
+position = Vector2( 277.193, 224.935 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
